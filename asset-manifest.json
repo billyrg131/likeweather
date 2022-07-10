@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/likeweather/static/css/main.66b9d64d.css",
+    "main.js": "/likeweather/static/js/main.56f34521.js",
+    "static/js/787.839abef4.chunk.js": "/likeweather/static/js/787.839abef4.chunk.js",
+    "static/media/wind.jpeg": "/likeweather/static/media/wind.ea980e42fb3b3238de2f.jpeg",
+    "static/media/warm-bg.jpeg": "/likeweather/static/media/warm-bg.c5a358623f7392cd2673.jpeg",
+    "static/media/cloud-2.jpeg": "/likeweather/static/media/cloud-2.f9138dfcfd9ecef3b54a.jpeg",
+    "static/media/mountain-bg.jpeg": "/likeweather/static/media/mountain-bg.058b89605446459025ca.jpeg",
+    "static/media/pressure.jpeg": "/likeweather/static/media/pressure.ffbff7a937bfe8f42c68.jpeg",
+    "static/media/cloud.jpeg": "/likeweather/static/media/cloud.88a247b2080d22c60041.jpeg",
+    "index.html": "/likeweather/index.html",
+    "main.66b9d64d.css.map": "/likeweather/static/css/main.66b9d64d.css.map",
+    "main.56f34521.js.map": "/likeweather/static/js/main.56f34521.js.map",
+    "787.839abef4.chunk.js.map": "/likeweather/static/js/787.839abef4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66b9d64d.css",
+    "static/js/main.56f34521.js"
+  ]
+}
