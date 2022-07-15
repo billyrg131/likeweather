@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.app {
+  background-image: url('./assets/mountain-bg.jpeg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 6.0s ease-out;
+
+}
+
+.app.warm{
+  background-image: url('./assets/warm-bg.jpeg');
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.75));
+  padding: 25px;
+}
+.search-box{
+  margin: 0, 0, 75px;
+  width: 100%;
+}
+.search-box .search-bar{
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  border: none;
+  appearance: none;
+  background:none;
+  outline: none;
+
+
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 16px 16px 16px 16px ;
+  margin-top: -25px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  color: #313131;
+  font-size: 20px;
+  transition: 0.4s ease;
+
+}
+.search-box .search-bar:focus {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+.location-box .location{
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+.location-box .date{
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba( 50, 50, 70, 0.5);
+}
+.weather-box{
+  text-align: center;
+}
+.weather-box .temp{
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  color: #FFF;
+  font-size: 102px;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+  padding: 15px 25px;
+}
+.weather-box .weather{
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+.info-box{
+  text-align: center;
+  padding: 10px;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 6px rgba(255, 255, 255, 0.5);
+}
+.info-box .weatherDesc, .wind-speed, .pressure{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 250;
+  text-shadow: 3px 6px rgba( 50, 50, 70, 0.5);
+  display:flex;
+  justify-content: center;
+
+}
+.img{
+  display: flex;
+  justify-content: center;
+  margin: 0 300px 0 300px;
+}
+.news-box{
+  width: 100%;
+  background-color: yellowgreen;
+  margin: 0 auto;
+}
+.searchInput{
+  border: 2px solid black;
+  border-radius: 16px;
+  height: 3.9rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 170px;
+  width: 78vw;
+  padding: 12px;
+  font-size: 21px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.searchInput:focus{
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.searchBtn{
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 20px;
+  width: 10vw;
+  padding: 8px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5));
+}
+.article-h1:hover{
+  color: red;
+}
+.desc-p{
+  font-style: italic;
+}
+.news-box{
+  background: greenyellow;
+  width: 100vw;
+}
+.news-input{
+  height: 50px;
+  width: 50vw;
+  font-size: 20px;
+  background-color: rgba(255,255,255,0.2);
+  margin: 0 300px 0 300px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.news-input:focus{
+  background-color: rgba(0, 0, 0, 0.2);
+  color:white
+}
+.newsBtn{
+  padding: 10px;
+  font-size: 15px;
+  font-family: cursive, sans-serif;
+  background-color: linear-gradient(to right,rgba(255,255, 255, 0.1), rgba(0,0,0,0.5 ));
+  border: 2px dashed black;
+  border-radius: 16px;
+  width: 15vw;
+}

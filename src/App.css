@@ -1,0 +1,102 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.message {
+	margin-bottom: 52px;
+}
+.authForm {
+	margin: auto;
+	border-radius: 20px;
+	border: 2px solid black;
+	background: yellowgreen;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	width: 55vw;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+.formImg {
+	margin-top: -50px;
+	border: 4px solid red;
+}
+.formInput {
+	width: 30vw;
+	height: 40px;
+	padding: 12px;
+	border-radius: 20px;
+	margin-top: 22px;
+}
+.formBtn {
+	font-size: 17px;
+	font-weight: bolder;
+	height: 40px;
+}
+
+.resetBtn {
+	font-size: 17px;
+	font-weight: bolder;
+	height: 40px;
+}
+::placeholder {
+	font-family: Sofia, cursive;
+	font-size: 20px;
+}
+.message {
+	display: inline-block;
+	width: 100vw;
+	color: red;
+	background-color: lightgray;
+}
+.alert-hd::before {
+	display: none;
+	content: none;
+	margin-top: -10px;
+}
+.updateError {
+	display: inline-block;
+	height: 30px;
+	width: 100vw;
+	background-color: lightgray;
+	border: 1px solid lightgray;
+}
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
