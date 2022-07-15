@@ -48,7 +48,7 @@ function Form() {
 			);
 			console.log(logInUser);
 			setMessage('Signed Up Successfully!');
-			navigate('/update');
+			navigate('/likeweather/update');
 		} catch (error) {
 			setMessage(error.message);
 		}
