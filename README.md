@@ -1,4 +1,4 @@
-# likeweather2
+# LikeWeather
 <pre>
 	Overview
 	LikeWeather2 is a modern weather application built using React.js. It provides real-time weather information for various locations worldwide, utilizing third-party weather APIs.
