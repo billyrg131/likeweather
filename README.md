@@ -4,6 +4,7 @@
 
 LikeWeather2 is a modern weather application built using React.js. It provides real-time weather information for various locations worldwide, utilizing third-party weather APIs.
 
+
 ## Features
 
 **Current Weather Data:** Displays real-time weather conditions including temperature, humidity, wind speed, and more.
@@ -16,6 +17,7 @@ LikeWeather2 is a modern weather application built using React.js. It provides r
 
 **User-Friendly Interface:** Simple, clean, and intuitive UI.
 
+
 ## Technologies Used
 
 **Frontend:** React.js, React Router, Bootstrap
@@ -25,6 +27,7 @@ LikeWeather2 is a modern weather application built using React.js. It provides r
 **API Services:** Axios (for API calls), OpenWeather API
 
 **Other Tools:** Node.js, NPM, GitHub Pages (for deployment)
+
 
 ## Installation and Setup
 
@@ -55,9 +58,10 @@ Open http://localhost:3000 in your web browser.
 **Live Demo:**
 Access the live version at GitHub Pages.
 
+
 ## Project Structure
 <pre>
-		likeweather2/
+likeweather2/
 	  ├── public/            # Static files
 	  ├── src/               # React components and app logic
 	  │   ├── components/    # UI components
@@ -67,6 +71,7 @@ Access the live version at GitHub Pages.
 	  ├── package.json       # Dependencies and scripts
 	  └── README.md          # Project documentation
 </pre>
+
 
 ## Contribution Guidelines
 
@@ -80,9 +85,11 @@ Push to the branch (git push origin feature/YourFeature)
 
 Create a pull request
 
+
 ## License
 
 This project is open-source and available under the MIT License.
+
 
 ## Contact
 
